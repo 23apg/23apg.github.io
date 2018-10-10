@@ -1,0 +1,38 @@
+h1 {
+    font-size: 40 px;
+    color: darkslateblue;
+    margin: 5px;
+}
+h2 {
+    font-size: 25 px;
+    color: darkslategray;
+}
+p {
+    font-size: 20 px;
+}
+
+.box{
+    padding: 10 px;
+    align-content: center;
+    background: whitesmoke;
+}
+.lat{
+    color: darkslateblue;
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .box {
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .navbar ul {
+        visibility: hidden;
+      }
+      #nav-select {
+        visibility: visible;
+      }
+    }
+    
